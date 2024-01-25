@@ -27,7 +27,7 @@ prev.onclick = () => {
 //autorun 
 let refreshInterval = setInterval(() => {
     next.click()
-}, 3000)
+}, 7000)
 
 const showSlider = () => {
     let itemActiveOld = document.querySelector('.slider .list .item.active')
@@ -45,7 +45,7 @@ const showSlider = () => {
 
     refreshInterval = setInterval(() => {
         next.click()
-    }, 3000)
+    }, 7000)
 }
 
 //click thumbnails
